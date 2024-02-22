@@ -34,6 +34,7 @@ module "randomizer"{
 
 module "resource_group"{
   source="./modules/resource_group"
+  env_prefix = var.env_prefix
 }
 
 module "storage"{

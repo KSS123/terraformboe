@@ -16,3 +16,7 @@ variable "tenant_id" {
 description = "Azure tenant ID"
 type = string
 }
+variable "env_prefix" {
+ description = "An environment differentiator"
+ type        = string
+}
